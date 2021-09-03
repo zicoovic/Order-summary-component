@@ -9,7 +9,7 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   min-height: 100vh;
-  background-image: url("images/favicon-32x32.png");
-  background-repeat: no-repeat;
+  background-image: url("C:\Users\abdulrhman\Documents\first_project\Order-summary-component/images/pattern-background-desktop.svg");
   background-size: contain;
+  background-color: red;
 }
