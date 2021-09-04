@@ -14,17 +14,16 @@ body {
   background-size: cover;
   background-color: hsl(225, 100%, 94%);
   position: relative;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .container {
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   max-width: 450px;
   background: white;
-  border-radius: 20px;
+  border-radius: 25px;
   overflow: hidden;
 }
 
@@ -45,15 +44,11 @@ body {
   margin-bottom: 25px;
 }
 
-.sup-tittle {
-  font-size: 17px;
-}
-
 .plan-box {
   display: flex;
   background-color: hsl(225, 100%, 98%);
   border-radius: 12px;
-  padding: 25px;
+  padding: 30px;
   align-items: center;
   justify-content: space-between;
 }
@@ -90,17 +85,17 @@ body {
   color: hsl(223, 47%, 23%);
 }
 
-.procced-order {
+.proceed-order {
   display: block;
   text-decoration: none;
   color: white;
   background-color: hsl(245, 75%, 52%);
-  padding: 20px 0;
+  padding: 15px 0;
   border-radius: 12px;
   margin: 30px 0;
 }
 
-.procced-order:hover {
+.proceed-order:hover {
   background-color: hsl(224, 23%, 55%);
   transition: color 0.3s ease;
 }
@@ -133,7 +128,7 @@ body {
   .plan-box-left div {
     margin-left: 10px;
   }
-  .procced-order,
+  .proceed-order,
   .cancel-order,
   .plan-box {
     font-size: 13px;
