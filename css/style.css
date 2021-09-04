@@ -9,7 +9,6 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   min-height: 100vh;
-  max-width: 1440px;
   background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,9 +40,13 @@ body {
   margin-bottom: 20px;
 }
 
-.text-content p.subtittle {
+.text-content .sup-tittle {
   color: #8a8a8a;
   margin-bottom: 25px;
+}
+
+.sup-tittle {
+  font-size: 17px;
 }
 
 .plan-box {
